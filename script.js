@@ -18,6 +18,6 @@ loginForm.addEventListener("submit", async (e) => {
   if (error) {
     alert("Feil ved innlogging: " + error.message);
   } else {
-    window.location.href = "index.html";
+    window.location.href = "Home.html";
   }
 });
