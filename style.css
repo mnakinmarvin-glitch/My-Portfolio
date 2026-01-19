@@ -31,3 +31,15 @@ body {
   white-space: nowrap;
   color: white;
 }
+
+.login-box {
+  background-color: #121212;
+  min-height: auto; /* Sørger for at den ikke strekker seg til bunnen */
+  max-width: 450px; /* Setter en maksgrense så den ikke blir for bred på PC */
+  margin: auto;
+}
+
+/* Sjekk om du har denne, den kan være synderen: */
+.vh-100 {
+  height: 100vh;
+}
