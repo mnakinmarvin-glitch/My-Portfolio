@@ -54,10 +54,17 @@ body {
 
   .navbar-brand img {
     height: 25px;
+    width: auto;
   }
 
   .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
+    min-height: 50px;
+  }
+
+  .navbar-toggler {
+    padding: 4px 8px;
+    font-size: 0.8rem;
   }
 }
