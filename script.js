@@ -21,3 +21,5 @@ loginForm.addEventListener("submit", async (e) => {
     window.location.href = "Home.html";
   }
 });
+
+// Dette er en enkel innloggingsside som bruker Supabase for autentisering. Når du trykker på funksjonen/knappen logg inn, blir den send til neste side.

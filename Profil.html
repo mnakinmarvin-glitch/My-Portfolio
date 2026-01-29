@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>My Account</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Your Library.html">My Library</a></li>
+          <li><a href="Settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="profile-header">
+        <div class="profile-info">
+          <img
+            src="Images/Bad bunny.jpeg"
+            alt="Profile Picture"
+            class="profile-picture"
+          />
+          <h2>Mawi</h2>
+          <p>Short bio or tagline</p>
+        </div>
+      </section>
+      <section class="content">
+        <h3>Featured Projects</h3>
+        <div class="project-list">
+          <div class="project-item">
+            <img src="Images/Starboy.jpeg" alt="Project 1" />
+            <h4>Project Title 1</h4>
+            <p>Short description of the project.</p>
+          </div>
+          <div class="project-item">
+            <img src="My library/Enhypen.jpeg" alt="Project 2" />
+            <h4>Project Title 2</h4>
+            <p>Short description of the project.</p>
+          </div>
+          <div class="project-item">
+            <img src="Images/Damn.jpeg" alt="Project 3" />
+            <h4>Project Title 3</h4>
+            <p>Short description of the project.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Marvin. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  /* General Styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  header {
+    background-color: #1db954;
+    padding: 1rem 2rem;
+  }
+
+  .logo h1 {
+    margin: 0;
+    color: #ffffff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #000000;
+  }
+
+  .profile-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(180deg, #1db954, #121212);
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-bottom: 1rem;
+  }
+
+  .profile-info h2 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 2rem;
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .project-item {
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .project-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .project-item h4 {
+    margin: 0.5rem 0;
+    color: #1db954;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282828;
+    color: #b3b3b3;
+  }
+
+  footer p {
+    margin: 0;
+  }
+</style>

@@ -4,7 +4,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-
+/* Body og nedover gjelder kortene og login siden */
 body {
   background-color: #121212;
 }
@@ -41,7 +41,7 @@ body {
   max-width: 450px;
   margin: auto;
 }
-
+/* Dette gjelder da mobil versjonen */
 @media (max-width: 600px) {
   .bg-spotify-card {
     max-width: 100%;

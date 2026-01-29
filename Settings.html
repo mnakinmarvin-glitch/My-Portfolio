@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #fff;
+      }
+      .settings-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      .setting-group {
+        margin-bottom: 30px;
+      }
+      .setting-group h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #1db954;
+      }
+      .setting-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+      }
+      .setting-item label {
+        font-size: 1rem;
+      }
+      .setting-item input[type="checkbox"] {
+        transform: scale(1.2);
+      }
+      .save-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1db954;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+      }
+      .save-button:hover {
+        background-color: #1aa34a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="settings-container">
+      <h1>Settings</h1>
+      <div class="setting-group">
+        <h2>Account</h2>
+        <div class="setting-item">
+          <label for="email-notifications">Email Notifications</label>
+          <input type="checkbox" id="email-notifications" />
+        </div>
+        <div class="setting-item">
+          <label for="dark-mode">Dark Mode</label>
+          <input type="checkbox" id="dark-mode" checked />
+        </div>
+      </div>
+      <div class="setting-group">
+        <h2>Playback</h2>
+        <div class="setting-item">
+          <label for="autoplay">Autoplay</label>
+          <input type="checkbox" id="autoplay" />
+        </div>
+        <div class="setting-item">
+          <label for="high-quality">High Quality Streaming</label>
+          <input type="checkbox" id="high-quality" checked />
+        </div>
+      </div>
+      <button class="save-button">Save Changes</button>
+    </div>
+  </body>
+</html>
+
+<!-- Ren copilot for å dekke tomme sider både her og profil-siden -->
